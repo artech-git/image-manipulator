@@ -21,3 +21,8 @@ yarn-error.log*
 # Build files
 build
 .DS_Store
+
+#wasm build files
+/image-wasm-logic/pkg/**
+/image-wasm-logic/target/**
+/image-wasm-logic/Cargo.lock
